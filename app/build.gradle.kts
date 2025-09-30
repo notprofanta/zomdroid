@@ -20,7 +20,7 @@ val hasSigningConfig = listOf(
 
 android {
     namespace = "com.zomdroid"
-    compileSdk = 35
+    compileSdk = 29
 
     signingConfigs {
         if (hasSigningConfig) {
@@ -36,8 +36,8 @@ android {
 
     defaultConfig {
         applicationId = "com.zomdroid"
-        minSdk = 30
-        targetSdk = 35
+        minSdk = 29
+        targetSdk = 29
         versionCode = 3
         versionName = "1.2.0"
 
